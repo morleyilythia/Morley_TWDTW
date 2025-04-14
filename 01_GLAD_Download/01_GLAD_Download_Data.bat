@@ -1,0 +1,169 @@
+@echo off
+:: ###########################################################
+:: Batch Script to Download GLAD ARD Data Using Perl Script
+:: 
+:: REQUIREMENTS:
+:: - Perl installed on your system (e.g., Strawberry Perl)
+:: - GLAD download tool (download_ARD.pl) downloaded from:
+::   https://glad.umd.edu/ard/home#tools
+:: 
+:: USER - EDIT THE FOLLOWING THREE PATHS (serch and replce with your paths):
+::   1. GLAD_TOOL_PATH       --> Folder where download_ARD.pl is saved
+::   2. TILE_LIST_PATH       --> Path to your 'tiles.txt' file
+::   3. OUTPUT_FOLDER_PATH   --> Folder where you want downloaded files
+:: ###########################################################
+
+@echo off
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 402 402 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 404 404 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 405 405 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 408 408 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 422 422 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 423 423 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 424 424 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 426 426 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 428 428 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 431 431 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 447 447 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 449 449 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 450 450 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 451 451 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 452 452 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 453 453 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 454 454 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 455 455 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 470 470 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 471 471 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 472 472 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 474 474 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 476 476 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 477 477 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 492 492 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 493 493 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 495 495 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 497 497 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 498 498 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 499 499 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 501 501 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 514 514 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 516 516 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 518 518 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 519 519 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 520 520 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 522 522 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 523 523 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 539 539 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 541 541 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 542 542 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 543 543 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 544 544 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 545 545 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 547 547 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 562 562 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 563 563 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 564 564 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 566 566 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 568 568 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 570 570 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 585 585 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 587 587 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 588 588 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 589 589 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 590 590 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 591 591 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 593 593 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 608 608 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 610 610 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 611 611 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 612 612 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 613 613 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 614 614 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 616 616 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 631 631 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 633 633 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 635 635 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 637 637 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 638 638 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 639 639 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 652 652 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 653 653 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 654 654 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 656 656 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 657 657 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 658 658 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 660 660 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 661 661 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 662 662 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 676 676 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 677 677 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 679 679 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 680 680 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 681 681 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 683 683 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 685 685 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 700 700 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 702 702 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 703 703 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 704 704 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 705 705 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 706 706 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 708 708 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 721 721 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 723 723 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 725 725 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 727 727 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 729 729 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 730 730 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 731 731 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 747 747 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 748 748 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 749 749 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 750 750 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 752 752 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 754 754 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 767 767 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 769 769 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 771 771 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 772 772 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 773 773 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 775 775 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 790 790 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 792 792 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 794 794 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 795 795 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 796 796 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 797 797 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 798 798 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 814 814 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 815 815 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 817 817 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 819 819 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 821 821 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 822 822 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 836 836 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 837 837 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 838 838 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 840 840 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 842 842 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 842 842 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 843 843 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 844 844 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 845 845 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 861 861 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 863 863 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 865 865 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 867 867 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 868 868 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 882 882 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 883 883 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 884 884 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 886 886 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 887 887 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 888 888 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 889 889 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 890 890 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 907 907 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 909 909 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 911 911 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 912 912 C:\Users\User\Desktop\GLAD_Output
+perl C:\Users\User\Desktop\GLAD_Tools\download_ARD.pl C:\Users\User\Desktop\GLAD_Input\tiles.txt 913 913 C:\Users\User\Desktop\GLAD_Output
